@@ -22,3 +22,7 @@ cicd-setup:
 	php artisan key:generate --ansi
 	php artisan migrate --force
 	php artisan db:seed --force
+
+.PHONY: deploy-setup
+deploy-setup:
+	composer install
