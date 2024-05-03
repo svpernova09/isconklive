@@ -3,11 +3,6 @@ clean:
 	rm -rf vendor/
 	rm -rf node_modules/
 
-.PHONY: clean
-clean:
-	rm -rf vendor/
-	rm -rf node_modules/
-
 .PHONY: clean_db
 clean_db:
 	php artisan migrate:fresh
