@@ -1,4 +1,4 @@
-name: "RFID App Tag"
+name: "isConkLIve Tag"
 on:
   push:
     tags:
